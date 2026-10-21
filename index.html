@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional portfolio website for Nada Bdeir, a fourth-year Information Systems student.">
+  <title>Nada Bdeir | Portfolio</title>
+
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <!-- Bootstrap Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  >
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">AM<span>.</span></a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="home" class="hero-section d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7">
+          <p class="hero-badge mb-3">Hello, I am</p>
+          <h1 class="display-3 fw-bold mb-3">
+            Nada <span>Bdeir</span>
+          </h1>
+
+          <h2 class="h3 mb-4">
+            Fourth-Year Information Systems Student
+          </h2>
+
+          <p class="hero-text mb-4">
+            I am a fourth-year Information Systems student with an interest in web development, databases and modern information technology. I enjoy learning new technologies and turning ideas into practical digital solutions.
+          </p>
+
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#projects" class="btn btn-primary btn-lg px-4">
+              View My Projects
+            </a>
+            <a href="#contact" class="btn btn-outline-light btn-lg px-4">
+              Contact Me
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-5 text-center">
+          <div class="profile-card mx-auto">
+            <div class="profile-avatar has-image">
+              <img src="images/profile.png" alt="Illustrative profile image for Nada Bdeir">
+            </div>
+            <h3 class="mt-4 mb-1">Nada Bdeir</h3>
+            <p class="text-secondary mb-0">Information Systems Student</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="section-title text-center">
+        <p>Get To Know Me</p>
+        <h2>About Me</h2>
+      </div>
+
+      <div class="row align-items-center g-5 mt-2">
+        <div class="col-lg-5">
+          <div class="about-card">
+            <div class="about-icon">
+              <i class="bi bi-person-workspace"></i>
+            </div>
+
+            <h3>Who am I?</h3>
+            <p>
+              I am a motivated fourth-year Information Systems student interested in web development, databases and business information systems. I enjoy building modern web pages, improving my technical skills and learning how technology can support real business needs.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <h3 class="fw-bold mb-3">My Career Objective</h3>
+          <p class="text-secondary fs-5">
+            My goal is to build a professional career in information systems and technology, combining technical knowledge with business understanding to create useful and efficient digital solutions.
+          </p>
+
+          <div class="row g-3 mt-3">
+            <div class="col-sm-6">
+              <div class="info-box">
+                <i class="bi bi-mortarboard-fill"></i>
+                <div>
+                  <span>Study</span>
+                  <strong>Information Systems</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="info-box">
+                <i class="bi bi-geo-alt-fill"></i>
+                <div>
+                  <span>Location</span>
+                  <strong>Mansoura, Egypt</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="info-box">
+                <i class="bi bi-code-slash"></i>
+                <div>
+                  <span>Focus</span>
+                  <strong>Information Systems & Web Development</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="info-box">
+                <i class="bi bi-translate"></i>
+                <div>
+                  <span>Languages</span>
+                  <strong>Arabic & English</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section-padding section-dark">
+    <div class="container">
+      <div class="section-title text-center">
+        <p>What I Can Do</p>
+        <h2>My Skills</h2>
+      </div>
+
+      <div class="row g-4 mt-3">
+        <div class="col-md-6 col-lg-3">
+          <div class="skill-card h-100">
+            <i class="bi bi-filetype-html"></i>
+            <h3>HTML5</h3>
+            <p>Semantic and well-structured web page development.</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 90%">90%</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="skill-card h-100">
+            <i class="bi bi-filetype-css"></i>
+            <h3>CSS3</h3>
+            <p>Modern styling, layouts, responsive design and animations.</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 85%">85%</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="skill-card h-100">
+            <i class="bi bi-bootstrap-fill"></i>
+            <h3>Bootstrap</h3>
+            <p>Responsive interfaces using Bootstrap grid and components.</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 82%">82%</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="skill-card h-100">
+            <i class="bi bi-git"></i>
+            <h3>Git & GitHub</h3>
+            <p>Basic version control and source-code project publishing.</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 75%">75%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section-padding">
+    <div class="container">
+      <div class="section-title text-center">
+        <p>Some Of My Work</p>
+        <h2>Projects</h2>
+      </div>
+
+      <div class="row g-4 mt-3">
+        <div class="col-md-6 col-lg-4">
+          <article class="project-card h-100">
+            <div class="project-image">
+              <img src="images/project-portfolio.png" alt="Personal Portfolio project preview">
+            </div>
+            <div class="project-body">
+              <span class="project-label">HTML / CSS / Bootstrap</span>
+              <h3>Personal Portfolio</h3>
+              <p>
+                A simple personal portfolio created as a university assignment
+                to introduce myself, my education and my basic technical skills.
+              </p>
+              <span class="project-link">
+                University Project
+              </span>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <article class="project-card h-100">
+            <div class="project-image">
+              <img src="images/project-registration.png" alt="Student Registration Page project preview">
+            </div>
+            <div class="project-body">
+              <span class="project-label">HTML / CSS</span>
+              <h3>Student Registration Page</h3>
+              <p>
+                A basic web page with a student registration form including
+                text fields, selections and simple page styling.
+              </p>
+              <span class="project-link">
+                Practice Project
+              </span>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <article class="project-card h-100">
+            <div class="project-image">
+              <img src="images/project-student-info.png" alt="Student Information Page project preview">
+            </div>
+            <div class="project-body">
+              <span class="project-label">HTML / CSS</span>
+              <h3>Student Information Page</h3>
+              <p>
+                A simple page designed to display student information in cards
+                and tables while practicing basic HTML and CSS layout.
+              </p>
+              <span class="project-link">
+                Practice Project
+              </span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section-padding section-dark">
+    <div class="container">
+      <div class="section-title text-center">
+        <p>My Academic Journey</p>
+        <h2>Education</h2>
+      </div>
+
+      <div class="timeline mt-5">
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content">
+            <span class="timeline-date">Fourth Year</span>
+            <h3>Bachelor's Degree in Information Systems</h3>
+            <p class="mb-1">Delta University - Egypt</p>
+            <p class="text-secondary mb-0">
+              Fourth-year student studying Information Systems with courses in databases, systems analysis, web basics and programming fundamentals.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content">
+            <span class="timeline-date">Academic Practice</span>
+            <h3>Basic Web Development</h3>
+            <p class="mb-1">University Assignments & Practice</p>
+            <p class="text-secondary mb-0">
+              Practiced creating simple web pages using HTML, CSS and Bootstrap as part of university learning and personal practice.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="section-title text-center">
+        <p>Thank You</p>
+        <h2>Contact</h2>
+      </div>
+
+      <div class="row justify-content-center mt-4">
+        <div class="col-lg-8">
+          <div class="contact-card text-center">
+            <h3 class="mb-3">Thank you for visiting my portfolio</h3>
+            <p class="text-secondary mb-0">
+              This portfolio was created as part of my university web development assignment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container text-center">
+      <p class="mb-1">
+        Designed & Built by <strong>Nada Bdeir</strong>
+      </p>
+      <small>© 2026 All Rights Reserved.</small>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+  </script>
+</body>
+</html>
